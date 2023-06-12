@@ -733,7 +733,6 @@ function setCountriesList() {
 function setYoutubeLinks() {
   linkIds = newsLinkIds[country]?.links;
   const container = document.getElementById("videos").children;
-  console.log(linkIds, country);
 
   linkIds.map((linkId, index) => {
     container[
